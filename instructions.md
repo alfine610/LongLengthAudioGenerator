@@ -22,9 +22,9 @@ It also features **automatic loop point detection** (find similar waveform segme
     ```
 3. Start the development server:
     ```bash
-    npm start
+    npm run dev
     ```
-    By default, the app will be available at `http://localhost:3000`.
+    By default, the app will be available at `http://localhost:5173`.
 
 ---
 
@@ -58,8 +58,9 @@ It also features **automatic loop point detection** (find similar waveform segme
 
 ## 6. Troubleshooting
 
-- If `npm start` fails, try deleting `node_modules` and reinstalling.
+- If `npm run dev` fails, try deleting `node_modules` and reinstalling.
 - Check for version compatibility with wavesurfer.js and ffmpeg.wasm.
+- Ensure your browser supports the required Cross-Origin headers for ffmpeg.wasm.
 
 ---
 
